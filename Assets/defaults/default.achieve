@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfAchievementModel xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <AchievementModel>
+    <Name>Cartographer</Name>
+    <Description>Obtain a map.</Description>
+    <hasAchievement>false</hasAchievement>
+    <ImageReference>map_icon</ImageReference>
+  </AchievementModel>
+  <AchievementModel>
+    <Name>Cult Stopper</Name>
+    <Description>Stop a dark ritual.</Description>
+    <hasAchievement>false</hasAchievement>
+    <ImageReference>stopped_cult_icon</ImageReference>
+  </AchievementModel>
+  <AchievementModel>
+    <Name>Social</Name>
+    <Description>Talk to all the inmates.</Description>
+    <hasAchievement>false</hasAchievement>
+    <ImageReference>social_icon</ImageReference>
+  </AchievementModel>
+  <AchievementModel>
+    <Name>One Man Army</Name>
+    <Description>Beat the game without anyone joining you.</Description>
+    <hasAchievement>false</hasAchievement>
+    <ImageReference>one_man_army_icon</ImageReference>
+  </AchievementModel>
+  <AchievementModel>
+    <Name>Master Negotiator</Name>
+    <Description>Pass the last checkpoint without fighting.</Description>
+    <hasAchievement>false</hasAchievement>
+    <ImageReference>master_negotiator_icon</ImageReference>
+  </AchievementModel>
+  <AchievementModel>
+    <Name>Gentleman Inmate</Name>
+    <Description>Beat the game without killing a single guard.</Description>
+    <hasAchievement>false</hasAchievement>
+    <ImageReference>gentleman_inmate_icon</ImageReference>
+  </AchievementModel>
+  <AchievementModel>
+    <Name>Bloodthirsty</Name>
+    <Description>Beat the game killing every guard.</Description>
+    <hasAchievement>false</hasAchievement>
+    <ImageReference>bloodthirsy_icon</ImageReference>
+  </AchievementModel>
+  <AchievementModel>
+    <Name>Dark Power</Name>
+    <Description>Gain power from a dark ritual</Description>
+    <hasAchievement>false</hasAchievement>
+    <ImageReference>dark_power_icon</ImageReference>
+  </AchievementModel>
+  <AchievementModel>
+    <Name>Book Smart</Name>
+    <Description>Read every book in the game</Description>
+    <hasAchievement>false</hasAchievement>
+    <ImageReference>book_icon</ImageReference>
+  </AchievementModel>
+    <AchievementModel>
+    <Name>Knowledge Opens Doors</Name>
+    <Description>Find the hidden Item</Description>
+    <hasAchievement>false</hasAchievement>
+    <ImageReference>book_icon</ImageReference>
+  </AchievementModel>
+</ArrayOfAchievementModel>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfScreenModel xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ScreenModel>
+    <EventId>1</EventId>
+    <ScreenType>Event</ScreenType>
+    <EventLocation>Forest</EventLocation>
+    <ImageReference></ImageReference>
+    <EventDescription>You awake in as forest, What do you do?</EventDescription>
+    <Options>
+      <Option>
+        <OptionDescription>Go toward the sound of running water</OptionDescription>
+        <OptionId>0</OptionId>
+        <Actions>
+          <ActionNode>
+            <NodeId>0</NodeId>
+            <PassNextNode>-1</PassNextNode>
+            <FailNextNode>-1</FailNextNode>
+            <Action>
+              <type>ChangeScreen</type>
+              <value>2</value>
+            </Action>
+          </ActionNode>
+        </Actions>
+      </Option>
+      <Option>
+        <OptionDescription>Go toward the distant mountains you can see through the branches of the trees.</OptionDescription>
+        <OptionId>1</OptionId>
+        <Actions>
+          <ActionNode>
+            <NodeId>0</NodeId>
+            <PassNextNode>-1</PassNextNode>
+            <FailNextNode>-1</FailNextNode>
+            <Action>
+              <type>ChangeScreen</type>
+              <value>3</value>
+            </Action>
+          </ActionNode>
+        </Actions>
+      </Option>
+    </Options>
+  </ScreenModel>
+  <ScreenModel>
+    <EventId>2</EventId>
+    <ScreenType>0</ScreenType>
+    <EventLocation>Creek</EventLocation>
+    <EventDescription>You come across A creek. You see a little boat to the side.</EventDescription>
+    <ImageReference></ImageReference>
+    <Options>
+      <Option>
+        <OptionDescription>Take the boat.</OptionDescription>
+        <OptionId>0</OptionId>
+        <Actions>
+          <ActionNode>
+            <NodeId>0</NodeId>
+            <PassNextNode>-1</PassNextNode>
+            <FailNextNode>-1</FailNextNode>
+            <Action>
+              <type>ChangeScreen</type>
+              <value>100</value>
+            </Action>
+          </ActionNode>
+        </Actions>
+      </Option>
+      <Option>
+        <OptionDescription>Cross the creek by foot.</OptionDescription>
+        <OptionId>1</OptionId>
+        <Actions>
+          <ActionNode>
+            <NodeId>0</NodeId>
+            <PassNextNode>1</PassNextNode>
+            <FailNextNode>-1</FailNextNode>
+            <Action>
+              <type>RemoveOption</type>
+              <value>1</value>
+            </Action>
+          </ActionNode>
+          <ActionNode>
+            <NodeId>1</NodeId>
+            <PassNextNode>-1</PassNextNode>
+            <FailNextNode>-1</FailNextNode>
+            <Action>
+              <type>changeText</type>
+              <value>ScreenDescription:When you draw closer, the creek appears to be deeper than you expected.</value>
+            </Action>
+          </ActionNode>
+        </Actions>
+      </Option>
+    </Options>
+  </ScreenModel>
+  <ScreenModel>
+    <EventId>3</EventId>
+    <ScreenType>0</ScreenType>
+    <EventLocation>Mountain Steps</EventLocation>
+    <EventDescription>You come to the foot of the mountain. Yous see some ruins farther up.</EventDescription>
+    <ImageReference></ImageReference>
+    <Options>
+      <Option>
+        <OptionDescription>Head toward the ruins.</OptionDescription>
+        <OptionId>0</OptionId>
+        <Actions>
+          <ActionNode>
+            <NodeId>0</NodeId>
+            <PassNextNode>-1</PassNextNode>
+            <FailNextNode>-1</FailNextNode>
+            <Action>
+              <type>ChangeScreen</type>
+              <value>100</value>
+            </Action>
+          </ActionNode>
+        </Actions>
+      </Option>
+      <Option>
+        <OptionDescription>Go toward the distant mountains you can see through the branches of the trees.</OptionDescription>
+        <OptionId>1</OptionId>
+        <Actions>
+          <ActionNode>
+            <NodeId>0</NodeId>
+            <PassNextNode>-1</PassNextNode>
+            <FailNextNode>-1</FailNextNode>
+            <Action>
+              <type>ChangeScreen</type>
+              <value>100</value>
+            </Action>
+          </ActionNode>
+        </Actions>
+      </Option>
+    </Options>
+  </ScreenModel>
+  <ScreenModel>
+    <EventId>100</EventId>
+    <ScreenType>0</ScreenType>
+    <EventLocation>End</EventLocation>
+    <EventDescription>End Of Current Path</EventDescription>
+    <ImageReference></ImageReference>
+    <Options>
+      <Option>
+        <OptionDescription>Go back to start</OptionDescription>
+        <OptionId>0</OptionId>
+        <Actions>
+          <ActionNode>
+            <NodeId>0</NodeId>
+            <PassNextNode>-1</PassNextNode>
+            <FailNextNode>-1</FailNextNode>
+            <Action>
+              <type>ChangeScreen</type>
+              <value>1</value>
+            </Action>
+          </ActionNode>
+        </Actions>
+      </Option>
+    </Options>
+  </ScreenModel>
+</ArrayOfScreenModel>

@@ -1,0 +1,173 @@
+  <!-- Section:Merchant -->
+  <EventScreenModel>
+    <EventId>50</EventId>
+    <ScreenType>Event</ScreenType>
+    <EventLocation>Dark Room</EventLocation>
+    <ImageReference></ImageReference>
+    <EventDescription>You appreach the man. He soesn't seem to have anything on the table at the moment.</EventDescription>
+    <Options>
+      <Option>
+        <OptionDescription>"Do you have anything for sale?"</OptionDescription>
+        <OptionId>0</OptionId>
+        <Actions>
+          <ActionNode>
+            <NodeId>0</NodeId>
+            <PassNextNode>1</PassNextNode>
+            <FailNextNode>2</FailNextNode>
+            <Action>
+              <type>CheckRequirement</type>
+              <value>inventory:haveItem:map</value>
+            </Action>
+          </ActionNode>
+          <ActionNode>
+            <NodeId>1</NodeId>
+            <PassNextNode>-1</PassNextNode>
+            <FailNextNode>-1</FailNextNode>
+            <Action>
+              <type>ChangeScreen</type>
+              <value>event:53</value>
+            </Action>
+          </ActionNode>
+          <ActionNode>
+            <NodeId>2</NodeId>
+            <PassNextNode>-1</PassNextNode>
+            <FailNextNode>-1</FailNextNode>
+            <Action>
+              <type>ChangeScreen</type>
+              <value>event:51</value>
+            </Action>
+          </ActionNode>
+        </Actions>
+      </Option>
+      <Option>
+        <OptionDescription>Walk Away</OptionDescription>
+        <OptionId>1</OptionId>
+        <Actions>
+          <ActionNode>
+            <NodeId>0</NodeId>
+            <PassNextNode>-1</PassNextNode>
+            <FailNextNode>-1</FailNextNode>
+            <Action>
+              <type>ChangeScreen</type>
+              <value>location:2</value>
+            </Action>
+          </ActionNode>
+        </Actions>
+      </Option>
+    </Options>
+  </EventScreenModel>
+
+
+  <EventScreenModel>
+    <EventId>51</EventId>
+    <ScreenType>Event</ScreenType>
+    <EventLocation>Dark Room</EventLocation>
+    <ImageReference></ImageReference>
+    <EventDescription>Why I just recentally came into possesion of a map of this very dungeon. I'd be willing to part with it for 20 gold.</EventDescription>
+    <Options>
+      <Option>
+        <OptionDescription>Not right now (Leave)</OptionDescription>
+        <OptionId>0</OptionId>
+        <Actions>
+          <ActionNode>
+            <NodeId>0</NodeId>
+            <PassNextNode>-1</PassNextNode>
+            <FailNextNode>-1</FailNextNode>
+            <Action>
+              <type>ChangeScreen</type>
+              <value>location:2</value>
+            </Action>
+          </ActionNode>
+        </Actions>
+      </Option>
+      <Option>
+        <OptionDescription>Here is the gold (obtain map)</OptionDescription>
+        <OptionId>1</OptionId>
+        <Actions>
+          <ActionNode>
+            <NodeId>0</NodeId>
+            <PassNextNode>1</PassNextNode>
+            <FailNextNode>-1</FailNextNode>
+            <Action>
+              <type>ChangeMoney</type>
+              <value>-20</value>
+            </Action>
+          </ActionNode>
+          <ActionNode>
+            <NodeId>1</NodeId>
+            <PassNextNode>2</PassNextNode>
+            <FailNextNode>-1</FailNextNode>
+            <Action>
+              <type>AddItem</type>
+              <value>map:</value>
+            </Action>
+          </ActionNode>
+          <ActionNode>
+            <NodeId>2</NodeId>
+            <PassNextNode>-1</PassNextNode>
+            <FailNextNode>-1</FailNextNode>
+            <Action>
+              <type>ChangeScreen</type>
+              <value>event:52</value>
+            </Action>
+          </ActionNode>
+        </Actions>
+      </Option>
+    </Options>
+    <PreChecks>
+      <Action>
+        <type>CheckRequirement</type>
+        <value>inventory:haveMoney:20</value>
+      </Action>
+    </PreChecks>
+  </EventScreenModel>
+
+  <EventScreenModel>
+    <EventId>52</EventId>
+    <ScreenType>Event</ScreenType>
+    <EventLocation>Dark Room</EventLocation>
+    <ImageReference></ImageReference>
+    <EventDescription>Thank you for the gold. Sadly I don't have any other wares at the moment.</EventDescription>
+    <Options>
+      <Option>
+        <OptionDescription>Okay (Leave)</OptionDescription>
+        <OptionId>0</OptionId>
+        <Actions>
+          <ActionNode>
+            <NodeId>0</NodeId>
+            <PassNextNode>-1</PassNextNode>
+            <FailNextNode>-1</FailNextNode>
+            <Action>
+              <type>ChangeScreen</type>
+              <value>location:2</value>
+            </Action>
+          </ActionNode>
+        </Actions>
+      </Option>
+    </Options>
+  </EventScreenModel>
+
+  <EventScreenModel>
+    <EventId>53</EventId>
+    <ScreenType>Event</ScreenType>
+    <EventLocation>Dark Room</EventLocation>
+    <ImageReference></ImageReference>
+    <EventDescription>Sadly I don't have wares at the moment.</EventDescription>
+    <Options>
+      <Option>
+        <OptionDescription>Okay (Leave)</OptionDescription>
+        <OptionId>0</OptionId>
+        <Actions>
+          <ActionNode>
+            <NodeId>0</NodeId>
+            <PassNextNode>-1</PassNextNode>
+            <FailNextNode>-1</FailNextNode>
+            <Action>
+              <type>ChangeScreen</type>
+              <value>location:2</value>
+            </Action>
+          </ActionNode>
+        </Actions>
+      </Option>
+    </Options>
+  </EventScreenModel>

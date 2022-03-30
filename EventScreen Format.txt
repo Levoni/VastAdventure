@@ -1,0 +1,21 @@
+  <EventScreenModel>
+    <EventId>3</EventId>
+    <EventLocation>Mountain Steps</EventLocation>
+    <EventDescription>You come to the foot of the mountain. Yous see some ruins farther up.</EventDescription>
+    <Options>
+      <EventOption>
+        <OptionDescription>Head toward the ruins.</OptionDescription>
+        <NextScreenId>1</NextScreenId>
+        <RequirementValue>0</RequirementValue>
+        <FailScreenId>-1</FailScreenId>
+        <FailText />
+      </EventOption>
+      <EventOption>
+        <OptionDescription>Look for a way through the mountains.</OptionDescription>
+        <NextScreenId>1</NextScreenId>
+        <RequirementValue>0</RequirementValue>
+        <FailScreenId>-1</FailScreenId>
+        <FailText />
+      </EventOption>
+    </Options>
+  </EventScreenModel>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSquadModel xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <SquadModel>
+        <id>1</id>
+        <teamId>1</teamId>
+        <characterIds>
+            <int>1</int>
+        </characterIds>
+    </SquadModel>
+
+    <SquadModel>
+        <id>2</id>
+        <teamId>1</teamId>
+        <characterIds>
+            <int>6</int>
+            <int>7</int>
+        </characterIds>
+    </SquadModel>
+
+    <SquadModel>
+        <id>3</id>
+        <teamId>1</teamId>
+        <characterIds>
+            <int>6</int>
+            <int>7</int>
+            <int>8</int>
+        </characterIds>
+    </SquadModel>
+
+    <SquadModel>
+        <id>4</id>
+        <teamId>1</teamId>
+        <characterIds>
+            <int>51</int>
+        </characterIds>
+    </SquadModel>
+
+    <SquadModel>
+        <id>5</id>
+        <teamId>1</teamId>
+        <characterIds>
+            <int>52</int>
+        </characterIds>
+    </SquadModel>
+
+    <SquadModel>
+        <id>6</id>
+        <teamId>1</teamId>
+        <characterIds>
+            <int>11</int>
+        </characterIds>
+    </SquadModel>
+
+    <SquadModel>
+        <id>7</id>
+        <teamId>1</teamId>
+        <characterIds>
+            <int>12</int>
+        </characterIds>
+    </SquadModel>
+
+    <SquadModel>
+        <id>8</id>
+        <teamId>1</teamId>
+        <characterIds>
+            <int>20</int>
+        </characterIds>
+    </SquadModel>
+
+    <SquadModel>
+        <id>9</id>
+        <teamId>1</teamId>
+        <characterIds>
+            <int>20</int>
+            <int>21</int>
+        </characterIds>
+    </SquadModel>
+
+    <SquadModel>
+        <id>10</id>
+        <teamId>1</teamId>
+        <characterIds>
+            <int>25</int>
+            <int>26</int>
+            <int>27</int>
+        </characterIds>
+    </SquadModel>
+
+    <SquadModel>
+        <id>11</id>
+        <teamId>1</teamId>
+        <characterIds>
+            <int>30</int>
+        </characterIds>
+    </SquadModel>
+
+    <SquadModel>
+        <id>12</id>
+        <teamId>1</teamId>
+        <characterIds>
+            <int>35</int>
+            <int>36</int>
+            <int>37</int>
+            <int>38</int>
+        </characterIds>
+    </SquadModel>
+
+    <SquadModel>
+        <id>13</id>
+        <teamId>1</teamId>
+        <characterIds>
+            <int>35</int>
+            <int>36</int>
+            <int>37</int>
+        </characterIds>
+    </SquadModel>
+
+    <SquadModel>
+        <id>14</id>
+        <teamId>1</teamId>
+        <characterIds>
+            <int>10</int>
+        </characterIds>
+    </SquadModel>
+
+    <SquadModel>
+        <id>15</id>
+        <teamId>1</teamId>
+        <characterIds>
+            <int>22</int>
+        </characterIds>
+    </SquadModel>
+
+    <SquadModel>
+        <id>16</id>
+        <teamId>1</teamId>
+        <characterIds>
+            <int>51</int>
+            <int>52</int>
+        </characterIds>
+    </SquadModel>
+
+    <SquadModel>
+        <id>17</id>
+        <teamId>1</teamId>
+        <characterIds>
+            <int>60</int>
+        </characterIds>
+    </SquadModel>
+
+    <SquadModel>
+        <id>18</id>
+        <teamId>1</teamId>
+        <characterIds>
+            <int>39</int>
+            <int>40</int>
+            <int>41</int>
+        </characterIds>
+    </SquadModel>
+
+    <SquadModel>
+        <id>19</id>
+        <teamId>1</teamId>
+        <characterIds>
+            <int>42</int>
+            <int>43</int>
+            <int>44</int>
+        </characterIds>
+    </SquadModel>
+</ArrayOfSquadModel>

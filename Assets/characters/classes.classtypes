@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--All classes: 12 upgrade points (unless otherwise stated)-->
+<!-- Plyer gets base: 80, Level Up: 10 attribute points and 6 automatic health (2 points worth) -->
+ <!--1 upgrade point = 3 Health -->
+<ArrayOfCharacterClassModel xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CharacterClassModel>
+    <!--50 base points-->
+    <classType>FrailHuman</classType>
+    <readableClassName>Frail Human</readableClassName>
+    <MaxHealthLvlUpIncrease>6</MaxHealthLvlUpIncrease>
+    <StrengthLvlUpIncrease>4</StrengthLvlUpIncrease>
+    <ToughnessLvlUpIncrease>1</ToughnessLvlUpIncrease>
+    <DexterityLvlUpIncrease>5</DexterityLvlUpIncrease>
+    <MaxHealthStartingAmount>90</MaxHealthStartingAmount>
+    <StrengthStartingAmount>10</StrengthStartingAmount>
+    <ToughnessStartingAmount>0</ToughnessStartingAmount>
+    <DexterityStartingAmount>10</DexterityStartingAmount>
+  </CharacterClassModel>
+
+  <CharacterClassModel>
+    <!--70 base points-->
+    <classType>Guard</classType>
+    <readableClassName>Guard</readableClassName>
+    <MaxHealthLvlUpIncrease>6</MaxHealthLvlUpIncrease>
+    <StrengthLvlUpIncrease>4</StrengthLvlUpIncrease>
+    <ToughnessLvlUpIncrease>4</ToughnessLvlUpIncrease>
+    <DexterityLvlUpIncrease>2</DexterityLvlUpIncrease>
+    <MaxHealthStartingAmount>120</MaxHealthStartingAmount>
+    <StrengthStartingAmount>12</StrengthStartingAmount>
+    <ToughnessStartingAmount>12</ToughnessStartingAmount>
+    <DexterityStartingAmount>6</DexterityStartingAmount>
+  </CharacterClassModel>
+
+  <CharacterClassModel>
+    <!--80 base points-->
+    <classType>GuardCaptain</classType>
+    <readableClassName>Guard Captain</readableClassName>
+    <MaxHealthLvlUpIncrease>6</MaxHealthLvlUpIncrease>
+    <StrengthLvlUpIncrease>4</StrengthLvlUpIncrease>
+    <ToughnessLvlUpIncrease>4</ToughnessLvlUpIncrease>
+    <DexterityLvlUpIncrease>2</DexterityLvlUpIncrease>
+    <MaxHealthStartingAmount>135</MaxHealthStartingAmount>
+    <StrengthStartingAmount>15</StrengthStartingAmount>
+    <ToughnessStartingAmount>12</ToughnessStartingAmount>
+    <DexterityStartingAmount>8</DexterityStartingAmount>
+  </CharacterClassModel>
+
+  <CharacterClassModel>
+    <!--60 base points-->
+    <classType>DogOfTheDark</classType>
+    <readableClassName>Feral Dog</readableClassName>
+    <MaxHealthLvlUpIncrease>3</MaxHealthLvlUpIncrease>
+    <StrengthLvlUpIncrease>3</StrengthLvlUpIncrease>
+    <ToughnessLvlUpIncrease>2</ToughnessLvlUpIncrease>
+    <DexterityLvlUpIncrease>6</DexterityLvlUpIncrease>
+    <MaxHealthStartingAmount>90</MaxHealthStartingAmount>
+    <StrengthStartingAmount>8</StrengthStartingAmount>
+    <ToughnessStartingAmount>4</ToughnessStartingAmount>
+    <DexterityStartingAmount>18</DexterityStartingAmount>
+  </CharacterClassModel>
+
+  <CharacterClassModel>
+    <!--60 base points-->
+    <classType>Cultist</classType>
+    <readableClassName>Cultist</readableClassName>
+    <MaxHealthLvlUpIncrease>3</MaxHealthLvlUpIncrease>
+    <StrengthLvlUpIncrease>6</StrengthLvlUpIncrease>
+    <ToughnessLvlUpIncrease>1</ToughnessLvlUpIncrease>
+    <DexterityLvlUpIncrease>3</DexterityLvlUpIncrease>
+    <MaxHealthStartingAmount>90</MaxHealthStartingAmount>
+    <StrengthStartingAmount>17</StrengthStartingAmount>
+    <ToughnessStartingAmount>4</ToughnessStartingAmount>
+    <DexterityStartingAmount>9</DexterityStartingAmount>
+  </CharacterClassModel>
+
+  <CharacterClassModel>
+    <!--75 base points-->
+    <classType>Brawler</classType>
+    <readableClassName>Brawler</readableClassName>
+    <MaxHealthLvlUpIncrease>6</MaxHealthLvlUpIncrease>
+    <StrengthLvlUpIncrease>4</StrengthLvlUpIncrease>
+    <ToughnessLvlUpIncrease>4</ToughnessLvlUpIncrease>
+    <DexterityLvlUpIncrease>2</DexterityLvlUpIncrease>
+    <MaxHealthStartingAmount>114</MaxHealthStartingAmount>
+    <StrengthStartingAmount>15</StrengthStartingAmount>
+    <ToughnessStartingAmount>14</ToughnessStartingAmount>
+    <DexterityStartingAmount>8</DexterityStartingAmount>
+  </CharacterClassModel>
+
+  <CharacterClassModel>
+    <!--75 base points-->
+    <classType>Noble</classType>
+    <readableClassName>Noble</readableClassName>
+    <MaxHealthLvlUpIncrease>9</MaxHealthLvlUpIncrease>
+    <StrengthLvlUpIncrease>4</StrengthLvlUpIncrease>
+    <ToughnessLvlUpIncrease>1</ToughnessLvlUpIncrease>
+    <DexterityLvlUpIncrease>4</DexterityLvlUpIncrease>
+    <MaxHealthStartingAmount>135</MaxHealthStartingAmount>
+    <StrengthStartingAmount>12</StrengthStartingAmount>
+    <ToughnessStartingAmount>6</ToughnessStartingAmount>
+    <DexterityStartingAmount>12</DexterityStartingAmount>
+  </CharacterClassModel>
+
+  <CharacterClassModel>
+    <!--75 base points-->
+    <classType>Thief</classType>
+    <readableClassName>Thief</readableClassName>
+    <MaxHealthLvlUpIncrease>3</MaxHealthLvlUpIncrease>
+    <StrengthLvlUpIncrease>4</StrengthLvlUpIncrease>
+    <ToughnessLvlUpIncrease>1</ToughnessLvlUpIncrease>
+    <DexterityLvlUpIncrease>6</DexterityLvlUpIncrease>
+    <MaxHealthStartingAmount>105</MaxHealthStartingAmount>
+    <StrengthStartingAmount>14</StrengthStartingAmount>
+    <ToughnessStartingAmount>8</ToughnessStartingAmount>
+    <DexterityStartingAmount>18</DexterityStartingAmount>
+  </CharacterClassModel>
+
+  <!-- Important Character classes-->
+  <CharacterClassModel>
+    <!--75 base points-->
+    <classType>Tessa</classType>
+    <readableClassName>Tessa</readableClassName>
+    <MaxHealthLvlUpIncrease>6</MaxHealthLvlUpIncrease>
+    <StrengthLvlUpIncrease>3</StrengthLvlUpIncrease>
+    <ToughnessLvlUpIncrease>3</ToughnessLvlUpIncrease>
+    <DexterityLvlUpIncrease>4</DexterityLvlUpIncrease>
+    <MaxHealthStartingAmount>105</MaxHealthStartingAmount>
+    <StrengthStartingAmount>13</StrengthStartingAmount>
+    <ToughnessStartingAmount>13</ToughnessStartingAmount>
+    <DexterityStartingAmount>14</DexterityStartingAmount>
+  </CharacterClassModel>
+
+  <CharacterClassModel>
+    <!--75 base points-->
+    <classType>Fredrick</classType>
+    <readableClassName>Fredrick</readableClassName>
+    <MaxHealthLvlUpIncrease>3</MaxHealthLvlUpIncrease>
+    <StrengthLvlUpIncrease>7</StrengthLvlUpIncrease>
+    <ToughnessLvlUpIncrease>1</ToughnessLvlUpIncrease>
+    <DexterityLvlUpIncrease>3</DexterityLvlUpIncrease>
+    <MaxHealthStartingAmount>105</MaxHealthStartingAmount>
+    <StrengthStartingAmount>22</StrengthStartingAmount>
+    <ToughnessStartingAmount>5</ToughnessStartingAmount>
+    <DexterityStartingAmount>13</DexterityStartingAmount>
+  </CharacterClassModel>
+
+  <CharacterClassModel>
+    <!--75 base points-->
+    <classType>Roland</classType>
+    <readableClassName>Roland</readableClassName>
+    <MaxHealthLvlUpIncrease>6</MaxHealthLvlUpIncrease>
+    <StrengthLvlUpIncrease>2</StrengthLvlUpIncrease>
+    <ToughnessLvlUpIncrease>6</ToughnessLvlUpIncrease>
+    <DexterityLvlUpIncrease>2</DexterityLvlUpIncrease>
+    <MaxHealthStartingAmount>120</MaxHealthStartingAmount>
+    <StrengthStartingAmount>8</StrengthStartingAmount>
+    <ToughnessStartingAmount>18</ToughnessStartingAmount>
+    <DexterityStartingAmount>9</DexterityStartingAmount>
+  </CharacterClassModel>
+
+<!-- Demon Classes -->
+  <CharacterClassModel>
+    <!--80 base points-->
+    <classType>Demon</classType>
+    <readableClassName>Demon</readableClassName>
+    <MaxHealthLvlUpIncrease>6</MaxHealthLvlUpIncrease>
+    <StrengthLvlUpIncrease>5</StrengthLvlUpIncrease>
+    <ToughnessLvlUpIncrease>2</ToughnessLvlUpIncrease>
+    <DexterityLvlUpIncrease>3</DexterityLvlUpIncrease>
+    <MaxHealthStartingAmount>105</MaxHealthStartingAmount>
+    <StrengthStartingAmount>18</StrengthStartingAmount>
+    <ToughnessStartingAmount>12</ToughnessStartingAmount>
+    <DexterityStartingAmount>14</DexterityStartingAmount>
+  </CharacterClassModel>
+</ArrayOfCharacterClassModel>
+
+<!-- 75 -->

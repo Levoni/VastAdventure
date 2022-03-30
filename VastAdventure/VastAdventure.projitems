@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>6910f7f2-c57c-4ba5-88f1-dba1027c54c1</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>VastAdventure</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Component\AchievementUI.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Component\Character.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Component\Squad.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataProviders\IAssetDataProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataProviders\IFileProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataProviders\IScreenProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Events\AddCharacterEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Events\BasicAttackEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Events\BattleOverEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Events\BattleStartEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Events\ChangeScreenEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Events\CharacterDiedEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Events\ClearBattleEntities.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Events\FlagSetEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Events\InventoryEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Events\PassBattleTurnEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Events\SelectTaticsEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Events\SetCharacterInfoButtonVisabilityEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Events\UpdateBattleHistoryEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)factories\animationFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Game1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\AchievementModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Action.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\ActionNode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\BattleScreenModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\ChangeScreenCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\CharacterClassModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\CharacterModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\ConfigModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\ConnectedLocationModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\GraveyardModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Inventory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\InventoryItemModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\ScreenNavigationStatusModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\LocationScreenModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Option.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\EventScreenModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\SquadModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\VastAdventureSaveFile.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Screens\BasicScreen.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)System\AchievementSystem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)System\BattleSystem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UiInterfaces\AchievementUIInterface.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utility\Enums.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utility\FlagCollection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utility\Services\AchievementService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utility\Services\ActionService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utility\Services\AssetLoaderService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utility\Services\CharacterService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utility\Services\ConfigService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utility\Services\FlagService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utility\Services\GraveyardService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utility\Services\InventoryService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utility\Services\SavesService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utility\Services\ScreenService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utility\Services\SquadService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="$(MSBuildThisFileDirectory)Content\Content.mgcb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Content\Content.mgcb" />
+  </ItemGroup>
+</Project>
